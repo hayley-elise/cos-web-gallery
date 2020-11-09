@@ -9,7 +9,7 @@ applications:
   instances: 1
   domain: mybluemix.net
   name: cos-web-gallery
-  host: cos-web-gallery
+  host: web-gallery-application
   disk_quota: 1024M
   services:
   - cwg-cloud-object-storage

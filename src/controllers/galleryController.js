@@ -17,8 +17,8 @@ var galleryController = function(title) {
     var aws = require('ibm-cos-sdk');
     var multer = require('multer');
     var multerS3 = require('multer-s3');
-    var ep = new aws.Endpoint('s3.private.us-south.cloud-object-storage.appdomain.cloud');
-    var s3 = new aws.S3({endpoint: ep, region: 'us-south'});
+    var ep = new aws.Endpoint('s3.private.us-east.cloud-object-storage.appdomain.cloud');
+    var s3 = new aws.S3({endpoint: ep, region: 'us-east'});
     var myBucket = 'image-gallery-bucket';
 
     var upload = multer({
